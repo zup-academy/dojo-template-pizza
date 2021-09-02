@@ -1,4 +1,4 @@
-package br.com.zup.edu.pizzaria.ingredientes.cadastropizza;
+package br.com.zup.edu.pizzaria.pizzas;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

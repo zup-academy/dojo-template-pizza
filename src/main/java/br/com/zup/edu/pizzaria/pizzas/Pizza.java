@@ -1,7 +1,6 @@
-package br.com.zup.edu.pizzaria.ingredientes.cadastropizza;
+package br.com.zup.edu.pizzaria.pizzas;
 
 import br.com.zup.edu.pizzaria.ingredientes.Ingrediente;
-import org.hibernate.annotations.Columns;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
