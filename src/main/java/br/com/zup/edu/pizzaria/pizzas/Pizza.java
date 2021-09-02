@@ -49,4 +49,9 @@ public class Pizza {
     public Long getId() {
         return id;
     }
+
+    public BigDecimal getPreco() {
+        return preco;
+    }
+
 }
