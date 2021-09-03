@@ -1,6 +1,7 @@
 package br.com.zup.edu.pizzaria.ingredientes.cadastrodeingredientes;
 
 import br.com.zup.edu.pizzaria.ingredientes.Ingrediente;
+import br.com.zup.edu.pizzaria.validators.UniqueValue;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -13,6 +14,7 @@ class NovoIngredienteRequest {
 
     @JsonProperty
     @NotBlank
+    @UniqueValue(domainAtribute = "nome",domainClass = Ingrediente.class)
     private String nome;
 
     @JsonProperty

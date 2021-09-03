@@ -3,6 +3,7 @@ package br.com.zup.edu.pizzaria.pizzas.cadastropizza;
 import br.com.zup.edu.pizzaria.ingredientes.Ingrediente;
 import br.com.zup.edu.pizzaria.ingredientes.IngredienteRepository;
 import br.com.zup.edu.pizzaria.pizzas.Pizza;
+import br.com.zup.edu.pizzaria.validators.UniqueValue;
 import com.fasterxml.jackson.annotation.JsonCreator;
 
 import javax.validation.constraints.NotBlank;
@@ -16,6 +17,7 @@ import static com.fasterxml.jackson.annotation.JsonCreator.Mode.PROPERTIES;
 public class NovaPizzaRequest {
 
     @NotBlank
+    @UniqueValue(domainAtribute = "sabor",domainClass = Pizza.class)
     private String sabor;
 
     @NotNull
