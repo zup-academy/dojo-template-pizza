@@ -1,8 +1,7 @@
 package br.com.zup.edu.pizzaria.ingredientes.cadastrodeingredientes;
 
 import br.com.zup.edu.pizzaria.ingredientes.Ingrediente;
-import br.com.zup.edu.pizzaria.validators.UniqueValue;
-import com.fasterxml.jackson.annotation.JsonCreator;
+import br.com.zup.edu.pizzaria.shared.validators.UniqueValue;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import javax.validation.constraints.NotBlank;

@@ -1,4 +1,4 @@
-package br.com.zup.edu.pizzaria.validators;
+package br.com.zup.edu.pizzaria.shared.validators;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Query;

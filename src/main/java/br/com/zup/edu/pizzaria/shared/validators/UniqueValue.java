@@ -1,9 +1,8 @@
-package br.com.zup.edu.pizzaria.validators;
+package br.com.zup.edu.pizzaria.shared.validators;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;
 import java.lang.annotation.*;
-import java.util.List;
 
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)

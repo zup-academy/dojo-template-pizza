@@ -3,13 +3,12 @@ package br.com.zup.edu.pizzaria.pizzas.cadastropizza;
 import br.com.zup.edu.pizzaria.ingredientes.Ingrediente;
 import br.com.zup.edu.pizzaria.ingredientes.IngredienteRepository;
 import br.com.zup.edu.pizzaria.pizzas.Pizza;
-import br.com.zup.edu.pizzaria.validators.UniqueValue;
+import br.com.zup.edu.pizzaria.shared.validators.UniqueValue;
 import com.fasterxml.jackson.annotation.JsonCreator;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
-import java.util.ArrayList;
 import java.util.List;
 
 import static com.fasterxml.jackson.annotation.JsonCreator.Mode.PROPERTIES;
